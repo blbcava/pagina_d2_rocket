@@ -1,0 +1,35 @@
+
+body{
+    text-align: center;
+margin: 0;}
+
+#main {
+margin: 64px auto 64px;
+}
+
+.colorido{
+    color: #EE24FF;
+    font-weight: 700;
+}
+
+#wave {
+    margin: 0;
+    width: 100%;
+
+}
+
+a{
+    color: black;
+    margin: ;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
