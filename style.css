@@ -5,6 +5,7 @@ margin: 0;}
 
 #main {
 margin: 64px auto 64px;
+width: 626px;
 }
 
 .colorido{
@@ -13,14 +14,29 @@ margin: 64px auto 64px;
 }
 
 #wave {
-    margin: 0;
     width: 100%;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 
 }
 
+footer{
+    font-family: 'Open Sans', sans-serif;
+}
+
 a{
-    color: black;
-    margin: ;
+    color:#3F3D56;
+    line-height: 22px;
+    font-weight: 700px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a + a{
+    margin-left: 42px;
 }
 
 h1{
@@ -29,7 +45,30 @@ h1{
 }
 
 p {
+    color: #828282;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 50px;
+    margin-right: 36px;
 
+}
+p + p {
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#linha-h {
+    border-top: 1px solid #ECEFF2;
+    width: 391px;
+    margin: 64px auto 16px;
+    height: 0px;
+}
+strong{
+    color: #3F3D56;
+}
+span{
+    font-weight: bold;
 }
